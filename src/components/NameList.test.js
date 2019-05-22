@@ -6,7 +6,7 @@ describe('NameList', () => {
   let component = null;
   
   it('renders correctly', () => {
-    component = renderer.create(<NameList names={["벨로퍼트", "김민준"]} />);
+    component = renderer.create(<NameList names={["Terry", "홍동욱"]} />);
   });
   
   it('matches snapshot', () => {
